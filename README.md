@@ -40,4 +40,6 @@
 - Android Mobile Device
 
 
+![image alt](https://github.com/HemBit/HydroPreserve/blob/main/System%20Pin%20Diagram.png?raw=true)
+
 
