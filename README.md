@@ -21,7 +21,7 @@
 - Raspberry Pi receives from the ESP8266 WiFi module so that it can be picked up by the mobile app.<br>
 
 6. Using MQTT for Messaging:<br>
-- As explained above, we use a publish/subscribe model to facilitate the communication between the mobile app and the rest of the system.<br>
+- As explained above, I've used a publish/subscribe model to facilitate the communication between the mobile app and the rest of the system.<br>
 - The ESP8266 Wifi Module acts as the publisher which the mobile app subscribes to while the Raspberry Pi acts like the MQTT broker to facilitate this connection.<br>
 
 7. Mobile Application:<br>
