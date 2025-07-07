@@ -1,6 +1,6 @@
 # HydroPreserve
 
-##System Tasks and Operations:
+## System Tasks and Operations:
 
 1. Sensor-Based Monitoring:<br>
 ○ Periodically trigger and read ultrasonic sensor (HC-SR04) data for water level measurement using STM32F407G <br>
@@ -16,14 +16,28 @@
 ○ The ESP8266 acts as a communication link between the STM32F407G board and the Raspberry Pi(which helps connect to the mobile app).<br>
 ○ It acts as an MQTT Publisher who forwards the data it receives from the STM32407G Board to the Raspberry Pi.<br>
 
-6. Communication with Raspberry Pi:<br>
+5. Communication with Raspberry Pi:<br>
 ○ Raspberry Pi acts as a MQTT broker.<br>
 ○ Raspberry Pi receives from the ESP8266 WiFi module so that it can be picked up by the mobile app.<br>
 
-7. Using MQTT for Messaging:<br>
+6. Using MQTT for Messaging:<br>
 ○ As explained above, we use a publish/subscribe model to facilitate the communication between the mobile app and the rest of the system.<br>
 ○ The ESP8266 Wifi Module acts as the publisher which the mobile app subscribes to while the Raspberry Pi acts like the MQTT broker to facilitate this connection.<br>
 
-8. Mobile Application:<br>
+7. Mobile Application:<br>
 ○ Android app subscribes to MQTT topics to display water level and pump status.<br>
 ○ Provides manual override functionality to force the pump OFF, regardless of water level.<br>
+
+## Components Used:
+
+- STM32F407G Discovery Board
+- Ultrasonic Sensor (HC-SR04)
+- 4 Channel Relay Board
+- Raspberry Pi
+- ESP8266 NodeMCU
+- Jumper Wires
+- Breadboard
+- Android Mobile Device
+
+
+
