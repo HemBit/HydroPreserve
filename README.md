@@ -1,4 +1,4 @@
-# HydroPreserve - Smart Water tank monitoring system
+# HydroPreserve - Smart Water Tank Monitoring System
 
 ## System Tasks and Operations:
 
